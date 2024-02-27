@@ -1,8 +1,7 @@
 "use client";
 import React, {useState} from 'react'
-import GithubIcon from "/public/github.svg"
 import Link from 'next/link'
-import Image from 'next/image'
+
 
 const EmailSection = () => {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
